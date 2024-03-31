@@ -18,7 +18,7 @@
 .banner {
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../images/banner-image.png");
-    border-radius: 16px;
+  border-radius: 16px;
   height: 600px;
   flex-shrink: 0;
   background-size: cover;
@@ -45,4 +45,43 @@
   line-height: 95px;
   width: 632px;
   margin-top: 16px;
+}
+
+/* offer section */
+
+.offer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.offer-container h1 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 48px;
+}
+.offer-container h4 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.offer-container h2 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 16px auto 48px;
 }
