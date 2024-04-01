@@ -266,3 +266,55 @@
   line-height: 32px; /* 160% */
   margin: 16px auto 43px;
 }
+
+/* discount section */
+
+.discount {
+  margin: 120px auto;
+}
+
+.discount .discount-description {
+  text-align: center;
+}
+
+.discount .discount-description h4 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.discount .discount-description h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin: 16px 0 28px 0;
+}
+.discount .discount-description p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 64px;
+}
+
+.discount .discount-img-container {
+  background-image: url("../images/rectangle-1.png"),
+    url("../images/rectangle-2.png");
+  background-repeat: no-repeat;
+  background-position: top right, bottom;
+  display: flex;
+  background-size: 429px 438px, 100%;
+}
+
+.discount .discount-img-container .percentage-image {
+  margin-top: 80px;
+  margin-left: -40px;
+}
